@@ -1,2 +1,2 @@
-# OOPL-Assignments
-OOP Lab Assignments of PICT SE (IT) Semester-III
+# College Assignments
+Repository of my college (Pune Institute of Computer Technology, Pune - affiliated to SPPU, Pune) assignments for ease of access.
