@@ -93,7 +93,7 @@ string infixToPostfix(Stack<char> s, string infix)
             postfix += infix[i];
         }
 
-            // opening and closing brackets
+        // opening and closing brackets
         else if (infix[i] == '(')
         {
             s.push(infix[i]);
@@ -111,7 +111,7 @@ string infixToPostfix(Stack<char> s, string infix)
             }
         }
 
-            // operators
+        // operators
         else if (isOperator(infix[i]))
         {
             if (s.isEmpty())
@@ -263,6 +263,7 @@ int operation(char c, int a, int b)
     else                    {return 0;}
 }
 
+// postfix expression evaluation
 int postfixEvaluation(string postfix)
 {
     Stack<int> stack;
@@ -283,6 +284,7 @@ int postfixEvaluation(string postfix)
     return stack.pop();
 }
 
+// prefix expression evaluation
 int prefixEvaluation(string prefix)
 {
     reverse(prefix.begin(), prefix.end());
