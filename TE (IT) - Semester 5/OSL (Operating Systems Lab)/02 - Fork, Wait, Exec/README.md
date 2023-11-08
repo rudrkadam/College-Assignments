@@ -1,0 +1,4 @@
+### Process Control System Calls - Fork, Wait, Zombie, Orphan
+
+1. Implement the C program in which the main program accepts the integers to be sorted. The main program utilizes the FORK system function to start a new process known as a child process. The parent process sorts the numbers using sorting algorithm and waits for the child process to sort the integers using any sorting method using the WAIT system function. Showcase the zombie and orphan stages as well
+2. Create a C program in which the main program accepts an integer array as input. The FORK system call is used by the main program to start a new process known as a child process. The parent process sorts an integer array and provides the sorted array to the child process through the EXECVE system call's command line parameters. The child process loads a new program that displays the array in reverse order by using the EXECVE system function.
